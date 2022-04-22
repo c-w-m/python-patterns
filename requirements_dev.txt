@@ -1,0 +1,30 @@
+# dev devcontainer convenience
+# ~~~~~~~ tox.ini ~~~~~~~
+tox
+#tox==3.24.5
+flake8
+pytest
+coverage
+
+# ~~~~~~~ setup.py ~~~~~~~
+#setuptools
+
+# ~~~~~~~ setup.cfg ~~~~~~~
+flake8
+pytest
+mypy
+
+# ~~~~~~~ pyproject.toml ~~~~~~~
+# none
+
+# ~~~~~~~ mkdocs.yml ~~~~~~~
+# none
+
+# ~~~~~~~ pre-commit-config.yaml ~~~~~~~
+# none
+
+# ~~~~~~~ bitbucket-pipelines.yml ~~~~~~~
+# none
+
+# ~~~~~~~ future use ~~~~~~~
+# none

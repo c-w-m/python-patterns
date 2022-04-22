@@ -1,0 +1,72 @@
+# user devcontainer convenience
+# ~~~~~~~ project demo ~~~~~~~
+pydantic-yaml
+#pydantic-yaml~=0.6.3
+pydantic>=1.7.4,<2.0
+semver>=2.13.0,<4  # Versions 2 or 3 should both work
+deprecated~=1.2.5
+types-Deprecated
+
+#pyyaml =
+pyyaml
+types-PyYAML
+
+#ruamel =
+ruamel.yaml>=0.15,<0.18  # new API starting from 0.15, but old is still available
+
+
+yamale
+#yamale==4.0.3
+yamllint
+#yamllint~=1.26.3
+strictyaml
+#strictyaml==1.6.1
+
+# ~~~~~~~ awesome development ~~~~~~~
+beautifulsoup4
+#beautifulsoup4==4.10.0
+Cython
+#Cython==0.29.26
+devtools
+#devtools==0.8.0
+openpyxl
+#openpyxl==3.0.9
+pandas
+#pandas==1.4.1
+python-dotenv
+#python-dotenv==0.19.2
+typing-extensions
+#typing-extensions==4.0.1
+xlrd
+#xlrd~=2.0.1
+XlsxWriter
+#XlsxWriter==3.0.3
+
+
+# ~~~~~~~ notebooks ~~~~~~~
+ipykernel
+#ipykernel~=6.11.0
+jupyterlab
+#jupyterlab==3.2.0
+ipywidgets
+#ipywidgets==7.6.5
+ipysheet
+#ipysheet==0.5.0
+
+# ~~~~~~~ visualization ~~~~~~~
+matplotlib
+#matplotlib~=3.5.1
+seaborn
+#seaborn~=0.11.2
+#plotly==5.3.1  # freq download error on devcontainer creation
+
+# ~~~~~~~ project docs/examples ~~~~~~~
+# used in pydantic examples
+SQLAlchemy
+#SQLAlchemy~=1.4.33
+orjson
+#orjson~=
+ujson
+#ujson~=
+
+#-------------------------------------------------

@@ -1,4 +1,4 @@
--e .
+#-e .
 
 pytest~=6.2.0
 pytest-cov~=2.11.0
