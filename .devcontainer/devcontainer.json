@@ -45,6 +45,7 @@
 	// "postCreateCommand": "pip3 install --user -r requirements.txt",
 
 	// dev project package installation as `develop` (i.e., instant availability of changes)
+	//"postCreateCommand": "python setup.py develop",  # FAILS unable to write, raise to sudo
 	//"postCreateCommand": "sudo python setup.py develop",
 	"postCreateCommand": "sudo pip3 --trusted-host pypi.org --trusted-host files.pythonhosted.org --disable-pip-version-check --no-cache-dir install -e .",
 
